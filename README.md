@@ -1,6 +1,8 @@
 # ssp4onnx
 **S**imple **Sp**lit for ONNX. A simple tool that automatically splits ONNX models of specified weight sizes.
 
+[![Downloads](https://static.pepy.tech/personalized-badge/ssp4onnx?period=total&units=none&left_color=grey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/ssp4onnx) ![GitHub](https://img.shields.io/github/license/PINTO0309/ssp4onnx?color=2BAF2B) [![PyPI](https://img.shields.io/pypi/v/ssp4onnx?color=2BAF2B)](https://pypi.org/project/ssp4onnx/)
+
 ## Usage
 ```bash
 ssp4onnx -i model.onnx --auto_split_max_size 100MB
