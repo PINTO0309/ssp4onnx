@@ -1,0 +1,22 @@
+name: Upload Python Package
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  pypi-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install uv
+      uses: astral-sh/setup-uv@v7
+      with:
+        python-version-file: "pyproject.toml"
+    - name: Build
+      run: uv build
+    - name: Publish a Python distribution to PyPI
+      uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
+      with:
+        user: __token__
+        password: ${{ secrets.PYPI_API_TOKEN }}
