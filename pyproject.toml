@@ -4,7 +4,7 @@ build-backend = "uv_build"
 
 [project]
 name = "ssp4onnx"
-version = "1.0.0"
+version = "1.0.1"
 description = "Simple Split for ONNX. A simple tool that automatically splits ONNX models of specified weight sizes."
 readme = "README.md"
 requires-python = ">=3.10.12"
@@ -27,7 +27,7 @@ classifiers = [
 ]
 dependencies = [
     "numpy==1.26.4",
-    "onnx==1.19.0",
+    "onnx==1.20.1",
     "onnx-graphsurgeon==0.5.8",
 ]
 
