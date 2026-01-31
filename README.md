@@ -14,3 +14,10 @@ Options:
 - `-s/--auto_split_max_size`: target partition size, supports `KB`, `MB`, `GB` (default: `100MB`)
 
 <img width="539" height="330" alt="image" src="https://github.com/user-attachments/assets/6779d186-3f4c-4f5c-b860-49ffc2843967" />
+
+- Reuslts
+
+|Split.1|Split.2|Split.3|
+|:-:|:-:|:-:|
+|<img width="615" height="656" alt="20260131213930" src="https://github.com/user-attachments/assets/6e622d15-e1d6-422f-aee5-d8a21c1c10fc" />|<img width="651" height="669" alt="20260131213947" src="https://github.com/user-attachments/assets/1a300e8e-3bd2-4994-b1e6-713837b2ea51" />|<img width="640" height="641" alt="20260131214003" src="https://github.com/user-attachments/assets/d12add6b-a390-41ec-91bc-69a928910521" />|
+
