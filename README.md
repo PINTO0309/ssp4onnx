@@ -5,6 +5,8 @@
 
 ## Usage
 ```bash
+pip install ssp4onnx
+
 ssp4onnx -i model.onnx --auto_split_max_size 100MB
 ```
 
