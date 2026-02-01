@@ -27,7 +27,7 @@ classifiers = [
 ]
 dependencies = [
     "numpy==1.26.4",
-    "onnx==1.20.1",
+    "onnx==1.19.1",
     "onnx-graphsurgeon==0.5.8",
 ]
 
